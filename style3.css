@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background: #111;
+}
+.box {
+    width: 120px;
+    height: 120px;
+    animation: taso 4s infinite linear;
+}
+@keyframes taso {
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: yellow;
+    }
+    50% {
+        background-color: green;
+    }
+    75%, 100% {
+        background-color: blue;
+    }
+}

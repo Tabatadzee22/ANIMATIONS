@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: taso 3s infinite alternate ease-in-out;
+}
+@keyframes taso {
+0% {
+    transform: translateX(-150px);
+    background-color: red;
+}
+100%{
+    transform: translateX(150px);
+    background-color: blue;
+}
+}

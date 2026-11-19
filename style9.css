@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f172a;
+  margin: 0;
+  overflow: hidden; 
+}
+
+.cloud {
+  font-size: 80px;
+  animation-name: taso;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; 
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes taso {
+  0% {
+    transform: translateX(-200px);
+  }
+  100% {
+    transform: translateX(200px);
+  }
+}

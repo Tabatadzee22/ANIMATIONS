@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #111;
+    margin: 0;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #38bdf8;
+    border-radius: 0px;
+    animation: taso 3s infinite ease-in-out;
+}
+@keyframes taso {
+    0% {
+        transform: translateX(-150px);
+        border-radius: 0px;
+    }
+    50% {
+        transform: translateX(0px);
+        border-radius: 50%;
+    }
+    100% {
+        transform: translateX(0px);
+        border-radius: 50%;
+    }
+}

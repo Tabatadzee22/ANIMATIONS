@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: #111;
+    font-family: sans-serif;
+}
+.box {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+    animation: taso 3s infinite ease-in-out;
+}
+@keyframes taso {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}

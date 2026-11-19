@@ -1,0 +1,30 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #111;
+  margin: 0;
+}
+
+.btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #6366f1;
+  cursor: pointer;
+  animation: taso 2s infinite ease-in-out;
+}
+
+@keyframes taso {
+  0%, 100% {
+    transform: scale(1); 
+    background-color: #6366f1; 
+  }
+  50% {
+    transform: scale(1.25); 
+    background-color: #ec4899; 
+  }
+}
